@@ -1,0 +1,60 @@
+# Arquivos específicos para projetos Go
+
+# Executáveis
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos gerados pela compilação
+*.o
+*.a
+
+# Binários gerados pelo go build
+/bin/
+
+# Arquivos de log
+*.log
+
+# Dependências geradas pelo go get
+/vendor/
+/Godeps/
+/go.sum
+
+# Arquivos específicos de IDEs para GoLand
+.idea/
+
+# Arquivos específicos de IDEs para Visual Studio Code
+.vscode/
+
+# Arquivos específicos de IDEs para Vim
+.vim/
+
+# Arquivos específicos de IDEs para Sublime Text
+.sublime-project
+.sublime-workspace
+
+# Arquivos específicos de IDEs para Atom
+.atom/
+
+# Arquivos específicos de IDEs para Emacs
+.emacs.desktop
+
+# Arquivos específicos de IDEs para JetBrains
+*.iml
+*.ipr
+*.iws
+
+# Arquivos específicos de IDEs para Eclipse
+.project
+.classpath
+.settings/
+
+# Arquivos específicos de IDEs para NetBeans
+/nbproject/private/
+/nbproject/Makefile-*.mk
+/nbproject/Package-*.bash
+
+# Arquivo especifico do projeto
+/versionup.yml
